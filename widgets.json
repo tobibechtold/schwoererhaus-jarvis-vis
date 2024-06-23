@@ -1,0 +1,558 @@
+{
+    "version": 3.1,
+    "signature": 8622160601135717,
+    "widgets": {
+        "232c9a69-1077-4b03-9c68-2d27eb148e6f": {
+            "id": "232c9a69-1077-4b03-9c68-2d27eb148e6f",
+            "config": {},
+            "module": "Map"
+        },
+        "dc0d5c0e-d82d-41a9-8f55-6d6ce9b94937": {
+            "id": "dc0d5c0e-d82d-41a9-8f55-6d6ce9b94937",
+            "config": {},
+            "module": "AdapterStatus"
+        },
+        "6fc7cca0-306e-40f6-a7c6-556ebd1fbd73": {
+            "id": "6fc7cca0-306e-40f6-a7c6-556ebd1fbd73",
+            "config": {},
+            "module": "AdapterLogs"
+        },
+        "e90fd75a-f510-4481-845d-b2cdac5c4e2f": {
+            "id": "e90fd75a-f510-4481-845d-b2cdac5c4e2f",
+            "config": {},
+            "module": "ScriptStatus"
+        },
+        "f506699b-161c-43a5-8809-5ce12097b08a": {
+            "id": "f506699b-161c-43a5-8809-5ce12097b08a",
+            "config": {
+                "dense": false,
+                "horizontal": false,
+                "stacked": false
+            },
+            "_created": 1718758049481,
+            "module": "StateList",
+            "items": [
+                {
+                    "type": "device",
+                    "deviceId": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a",
+                    "id": "3ca1875a-7137-426b-9041-abda3366c1e1",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.temp-room-1",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.temp-room-1",
+                    "isInGroup": false,
+                    "bodyElement": "LastChangeBody",
+                    "LastChangeBodyConfig": {
+                        "schwoerer-ventcube.0.parameters.temp-room-1": {
+                            "time": "ts"
+                        }
+                    }
+                },
+                {
+                    "type": "divider",
+                    "id": "f3e291dc-0739-4e67-bb43-98960cf4082f",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "ffc50756-54a2-41f1-8520-511651d7b8b9",
+                    "id": "c92aa128-193d-49de-8c1b-9edc8ad63ee2",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-1",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-1",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "5f2d8261-c9a9-4b47-802f-7f8385059408",
+                    "id": "221ba666-3ff3-493a-b317-560af6c9e1a6",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-1",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-1",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "0fdf3d60-849f-4e00-81c6-6ef312724609",
+                    "id": "aa01c05a-9ae0-4d5b-9d8c-9abfa9980dff",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-1",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-1",
+                    "isInGroup": false
+                },
+                {
+                    "type": "divider",
+                    "id": "11c874c4-b9c4-4d6c-8940-38f9a13084e7",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "16b27948-a2dc-4b14-82d4-c48e9810d0ed",
+                    "id": "9fabc4ba-0cd5-46c9-a426-bae5ba41aa85",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-1",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-1",
+                    "isInGroup": false
+                }
+            ],
+            "revision": "62d2b",
+            "_updated": 1718925997102,
+            "title": "Wohnzimmer",
+            "icon": "mdi-sofa-outline"
+        },
+        "fd39fc28-0158-4e05-81d6-14495b9060f9": {
+            "id": "fd39fc28-0158-4e05-81d6-14495b9060f9",
+            "config": {
+                "dense": false,
+                "horizontal": false,
+                "stacked": false
+            },
+            "_created": 1718791999357,
+            "title": "Allgemein",
+            "module": "StateList",
+            "revision": "0d176",
+            "items": [
+                {
+                    "type": "device",
+                    "deviceId": "b17385c5-6b22-4876-8d59-e0b8ae5543dc",
+                    "id": "124f529f-688d-41ea-88b1-6e9e08240643",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.t10-temp-outside",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.t10-temp-outside",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "a8933f9c-cb17-4328-9065-6555c5f63de9",
+                    "id": "c32f9f1a-15ed-4b64-a052-332cd9527f9f",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.operation-mode",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.operation-mode",
+                    "isInGroup": false
+                },
+                {
+                    "type": "divider",
+                    "id": "9ca519a0-624b-4698-99c2-765a1775bf4d",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "6694f631-3894-4f0e-ba03-e4ce119b88c7",
+                    "id": "b65b3b20-904f-4464-a4bd-6c953f216cbd",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.current-fan-level",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.current-fan-level",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "1837d9e6-1af5-429a-a7c5-e4a9d1ecf11d",
+                    "id": "c52fc6da-e029-4cd9-8dc1-0d4e4b9f08f8",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.manual-fan-level",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.manual-fan-level",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "16d28cc5-0095-46da-9de0-3ef2e628af9d",
+                    "id": "ce3035cf-d86f-4dea-a5a1-98683d5e806e",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.shock-ventilation",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.shock-ventilation",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "07cf6f43-acb9-4492-856e-7ab23ecf6fba",
+                    "id": "bc08f835-95c6-4cea-a947-f8749ed576c3",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.shock-ventilation-remaining",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.shock-ventilation-remaining",
+                    "isInGroup": false
+                },
+                {
+                    "type": "divider",
+                    "id": "082dc1a4-42e4-468e-9de4-60644995a913",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "6ba39939-0b56-47c5-8cce-12aee167e82e",
+                    "id": "151424f7-8d20-4d50-ae7d-5d65b817f9a7",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.additonal-heating-house",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.additonal-heating-house",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "5f3054a3-9b4a-4c24-93e4-af22bffad7df",
+                    "id": "9b5fbd7c-82d3-4ca0-934e-91f486113a85",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.heating-cooling-function",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.heating-cooling-function",
+                    "isInGroup": false
+                }
+            ],
+            "_updated": 1718839002345,
+            "icon": "mdi-cog"
+        },
+        "af7c25ad-2462-4da8-9f89-df2a90550b7c": {
+            "id": "af7c25ad-2462-4da8-9f89-df2a90550b7c",
+            "config": {
+                "dense": false,
+                "horizontal": false,
+                "stacked": false
+            },
+            "_created": 1718836666038,
+            "title": "Büro",
+            "module": "StateList",
+            "items": [
+                {
+                    "type": "device",
+                    "deviceId": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_a858b",
+                    "id": "3dac2bb1-cb58-42a9-84ef-afcd582861b6",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.temp-room-2",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.temp-room-2",
+                    "isInGroup": false,
+                    "bodyElement": "LastChangeBody",
+                    "LastChangeBodyConfig": {
+                        "schwoerer-ventcube.0.parameters.temp-room-2": {
+                            "time": "ts"
+                        }
+                    }
+                },
+                {
+                    "type": "divider",
+                    "id": "07590e35-0ebc-4766-b385-19b98d51c310",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "ffc50756-54a2-41f1-8520-511651d7b8b9_8d9e0",
+                    "id": "ef8780df-40e7-4cfd-baa6-e0bb71f0e0ad",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-2",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-2",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "5f2d8261-c9a9-4b47-802f-7f8385059408_382d0",
+                    "id": "cd5cecca-da4b-4c67-a5b7-f819782ba4f5",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-2",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-2",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "0fdf3d60-849f-4e00-81c6-6ef312724609_0f67c",
+                    "id": "3c3b8990-ef49-4c1a-8b3b-9f1778e659f3",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-2",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-2",
+                    "isInGroup": false
+                },
+                {
+                    "type": "divider",
+                    "id": "9d17121e-93d4-4b1f-bfd9-fea412351e4a",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "16b27948-a2dc-4b14-82d4-c48e9810d0ed_5392f",
+                    "id": "1cea46fa-eae7-4fef-b368-03e3b3193f11",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-2",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-2",
+                    "isInGroup": false
+                }
+            ],
+            "revision": "a4ec8",
+            "icon": "mdi-office-building-marker",
+            "_updated": 1718925955717
+        },
+        "65a69bf1-dfab-4bf6-9028-988a4d4329e2": {
+            "id": "65a69bf1-dfab-4bf6-9028-988a4d4329e2",
+            "config": {
+                "dense": false,
+                "horizontal": false,
+                "stacked": false
+            },
+            "_created": 1718839037124,
+            "title": "Schlafzimmer",
+            "icon": "mdi-bed-king-outline",
+            "module": "StateList",
+            "items": [
+                {
+                    "type": "device",
+                    "deviceId": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_a858b_91a7e",
+                    "id": "3465e1b8-9676-4a4c-8fbc-7ff19ffe44b1",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.temp-room-3",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.temp-room-3",
+                    "isInGroup": false,
+                    "bodyElement": "LastChangeBody",
+                    "LastChangeBodyConfig": {
+                        "schwoerer-ventcube.0.parameters.temp-room-3": {
+                            "time": "ts"
+                        }
+                    }
+                },
+                {
+                    "type": "divider",
+                    "id": "e7ac68ff-8b32-4c90-87d0-0892b8c1de5e",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "ffc50756-54a2-41f1-8520-511651d7b8b9_aae3f",
+                    "id": "dbfe6a6e-8ee8-416d-8c71-836307b53f74",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-3",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-3",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "5f2d8261-c9a9-4b47-802f-7f8385059408_b9f01",
+                    "id": "b91aa4d5-8537-487e-8cd2-f2545bb1f3aa",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-3",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-3",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "0fdf3d60-849f-4e00-81c6-6ef312724609_c969d",
+                    "id": "db20d184-2ad0-4970-b4f8-2a3383b11869",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-3",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-3",
+                    "isInGroup": false
+                },
+                {
+                    "type": "divider",
+                    "id": "20ce7973-e6bd-42b2-ad3b-e29a5a192e2f",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "16b27948-a2dc-4b14-82d4-c48e9810d0ed_5392f_a5d1f",
+                    "id": "d055bac9-a7c3-4915-a405-8fe07311603d",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-3",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-3",
+                    "isInGroup": false
+                }
+            ],
+            "revision": "54b63",
+            "_updated": 1718925979267
+        },
+        "2301f603-a248-4453-928c-6888d3e4fcd7": {
+            "id": "2301f603-a248-4453-928c-6888d3e4fcd7",
+            "config": {
+                "dense": false,
+                "horizontal": false,
+                "stacked": false
+            },
+            "_created": 1718839812835,
+            "module": "StateList",
+            "title": "Kind 1",
+            "icon": "mdi-teddy-bear",
+            "items": [
+                {
+                    "type": "device",
+                    "deviceId": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_95bb8",
+                    "id": "68d7d164-a9d4-4ed4-be3f-d2e1a20e6641",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.temp-room-4",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.temp-room-4",
+                    "isInGroup": false,
+                    "bodyElement": "LastChangeBody",
+                    "LastChangeBodyConfig": {
+                        "schwoerer-ventcube.0.parameters.temp-room-4": {}
+                    }
+                },
+                {
+                    "type": "divider",
+                    "id": "1079bd14-980b-45fb-8f6e-c5960aa7aac7",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "ffc50756-54a2-41f1-8520-511651d7b8b9_12c5b",
+                    "id": "cc416cc1-b740-46b7-ac90-038da938aed0",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-4",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-4",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "5f2d8261-c9a9-4b47-802f-7f8385059408_d4ea1",
+                    "id": "5d209998-b0ff-424f-9644-f09a21705d93",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-4",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-4",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "0fdf3d60-849f-4e00-81c6-6ef312724609_8d865",
+                    "id": "c5d329d2-58b1-446c-8fe6-ebde9966dd05",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-4",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-4",
+                    "isInGroup": false
+                },
+                {
+                    "type": "divider",
+                    "id": "5b88542e-e814-43f2-9446-3a4d0bbf3f7c",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "16b27948-a2dc-4b14-82d4-c48e9810d0ed_96028",
+                    "id": "18ac5d46-b18b-4613-8900-7b99d54d9b10",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-4",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-4",
+                    "isInGroup": false
+                }
+            ],
+            "revision": "18f42",
+            "_updated": 1718925943890
+        },
+        "984bceb4-ef81-4e0f-b603-1b052f6505a0": {
+            "id": "984bceb4-ef81-4e0f-b603-1b052f6505a0",
+            "config": {
+                "dense": false,
+                "horizontal": false,
+                "stacked": false
+            },
+            "_created": 1718839993758,
+            "title": "Kind 2",
+            "icon": "mdi-teddy-bear",
+            "module": "StateList",
+            "items": [
+                {
+                    "type": "device",
+                    "deviceId": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_95bb8_a4740",
+                    "id": "88014a0b-545b-4508-8b85-9a057cd32de1",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.temp-room-5",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.temp-room-5",
+                    "isInGroup": false,
+                    "bodyElement": "LastChangeBody",
+                    "LastChangeBodyConfig": {
+                        "schwoerer-ventcube.0.parameters.temp-room-5": {
+                            "time": "ts"
+                        }
+                    }
+                },
+                {
+                    "type": "divider",
+                    "id": "129f40d1-90e0-4f81-bbec-8146c9ce69f9",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "ffc50756-54a2-41f1-8520-511651d7b8b9_1bad0",
+                    "id": "40b2ce30-74bb-4dc9-b0bc-60b37f22e055",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-5",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.target-temp-room-5",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "5f2d8261-c9a9-4b47-802f-7f8385059408_4b16e",
+                    "id": "6718b954-1124-4020-ae98-714bbd78005d",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-5",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-5",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "0fdf3d60-849f-4e00-81c6-6ef312724609_578a4",
+                    "id": "65669dc3-42c9-4f5f-8d45-3a24093672d5",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-5",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-5",
+                    "isInGroup": false
+                },
+                {
+                    "type": "divider",
+                    "id": "549e08ec-3d3d-4700-8ff6-b2296d884e19",
+                    "isInGroup": false
+                },
+                {
+                    "type": "device",
+                    "deviceId": "16b27948-a2dc-4b14-82d4-c48e9810d0ed_96028_48d9f",
+                    "id": "52644a39-8484-4258-bbb0-bab90878b383",
+                    "primaryStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-5",
+                    "bodyStateKey": "schwoerer-ventcube.0.parameters.base-temp-room-5",
+                    "isInGroup": false
+                }
+            ],
+            "revision": "e5d1e",
+            "_updated": 1718925968947
+        },
+        "a834e15a-3075-446a-8352-0aab008c6d05": {
+            "id": "a834e15a-3075-446a-8352-0aab008c6d05",
+            "config": {
+                "apikey": "mb29g4dacoz2",
+                "localid": "95960",
+                "display": "both",
+                "forecastSunRain": true,
+                "iconSetWeather": "set5",
+                "forecastTemperature": true,
+                "forecastWind": false,
+                "iconSetWind": "set2"
+            },
+            "_created": 1718891968059,
+            "module": "Weather",
+            "title": "Wetter",
+            "revision": "ce588",
+            "items": [],
+            "_updated": 1718904121877,
+            "icon": "mdi:sun-thermometer"
+        },
+        "ae2e59f3-a45e-4f10-be08-f281b14bd321": {
+            "id": "ae2e59f3-a45e-4f10-be08-f281b14bd321",
+            "config": {
+                "dense": false,
+                "horizontal": false,
+                "stacked": false
+            },
+            "_created": 1718911127503,
+            "module": "StateList",
+            "items": [
+                {
+                    "type": "device",
+                    "deviceId": "3f46d706-0685-4976-8dee-b5cd277190e9",
+                    "id": "16766b4e-7e86-49e9-8152-dc9ecadd83b8",
+                    "primaryStateKey": "system.host.raspberrypi.cpu",
+                    "bodyStateKey": "system.host.raspberrypi.cpu",
+                    "isInGroup": false,
+                    "bodyElement": "CustomTextBody"
+                },
+                {
+                    "type": "device",
+                    "deviceId": "3f46d706-0685-4976-8dee-b5cd277190e9",
+                    "id": "5b9a9c61-8290-4f30-945b-9ee1205c8a4f",
+                    "primaryStateKey": "system.host.raspberrypi.mem",
+                    "bodyStateKey": "system.host.raspberrypi.mem",
+                    "isInGroup": false,
+                    "bodyElement": "CustomTextBody"
+                },
+                {
+                    "type": "device",
+                    "deviceId": "3f46d706-0685-4976-8dee-b5cd277190e9",
+                    "id": "59e6eddd-7b21-4ef5-a2c7-5bb556eaae76",
+                    "primaryStateKey": "system.host.raspberrypi.diskSize",
+                    "bodyStateKey": "system.host.raspberrypi.diskSize",
+                    "isInGroup": false,
+                    "label": "Festplattengröße",
+                    "bodyElement": "CustomTextBody"
+                },
+                {
+                    "type": "device",
+                    "deviceId": "3f46d706-0685-4976-8dee-b5cd277190e9",
+                    "id": "941d418e-e6ce-40c9-a08c-86208b081483",
+                    "primaryStateKey": "system.host.raspberrypi.diskFree",
+                    "bodyStateKey": "system.host.raspberrypi.diskFree",
+                    "isInGroup": false,
+                    "label": "Freier Speicher",
+                    "bodyElement": "CustomTextBody"
+                },
+                {
+                    "type": "device",
+                    "deviceId": "3f46d706-0685-4976-8dee-b5cd277190e9",
+                    "id": "3f57a348-42a7-4e64-bd89-49b972698126",
+                    "primaryStateKey": "system.host.raspberrypi.uptime",
+                    "bodyStateKey": "system.host.raspberrypi.uptime",
+                    "isInGroup": false,
+                    "label": "Uptime",
+                    "bodyElement": "CustomTextBody"
+                }
+            ],
+            "_updated": 1718924773745,
+            "revision": "13d10",
+            "title": "System",
+            "icon": "mdi-desktop-classic"
+        }
+    }
+}

@@ -1,0 +1,1267 @@
+{
+    "version": 3,
+    "signature": 6942848844050992,
+    "devices": {
+        "aee5c4f0-7630-4189-bd59-beb29a0f8e9a": {
+            "name": "Temperatur Wohnzimmer",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.temp-room-1": {
+                    "_created": 1718757945658,
+                    "stateKey": "schwoerer-ventcube.0.parameters.temp-room-1",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.temp-room-1",
+                    "_updated": 1718838114685,
+                    "action": "schwoerer-ventcube.0.parameters.temp-room-1",
+                    "unit": "° C",
+                    "actionElement": null,
+                    "bodyElement": null,
+                    "icon": "mdi:temperature-low",
+                    "label": "Temperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a",
+            "attributes": {
+                "_created": 1718757913017,
+                "_updated": 1718838112909
+            },
+            "revision": "51ea2"
+        },
+        "ffc50756-54a2-41f1-8520-511651d7b8b9": {
+            "name": "Solltemperatur Wohnzimmer",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.target-temp-room-1": {
+                    "_created": 1718758998537,
+                    "stateKey": "schwoerer-ventcube.0.parameters.target-temp-room-1",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.target-temp-room-1",
+                    "_updated": 1718837069639,
+                    "actionElement": null,
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "unit": true,
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Solltemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "ffc50756-54a2-41f1-8520-511651d7b8b9",
+            "attributes": {
+                "_created": 1718758833922,
+                "_updated": 1718837064982
+            },
+            "revision": "71cbf"
+        },
+        "a8933f9c-cb17-4328-9065-6555c5f63de9": {
+            "name": "Betriebsart",
+            "icon": "mdi:sun-snowflake-variant",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.operation-mode": {
+                    "_created": 1718792051886,
+                    "stateKey": "schwoerer-ventcube.0.parameters.operation-mode",
+                    "showState": false,
+                    "state": "",
+                    "_updated": 1718838670489,
+                    "actionElement": "DropdownAction",
+                    "display": {
+                        "0": "Aus",
+                        "1": "Handbetrieb",
+                        "2": "Winterbetrieb",
+                        "3": "Sommerbetrieb",
+                        "4": "Sommer Abluft"
+                    },
+                    "action": "schwoerer-ventcube.0.parameters.operation-mode",
+                    "DropdownActionConfig": {}
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "a8933f9c-cb17-4328-9065-6555c5f63de9",
+            "attributes": {
+                "_created": 1718792025582,
+                "_updated": 1718838657730
+            },
+            "revision": "8f1c1"
+        },
+        "6694f631-3894-4f0e-ba03-e4ce119b88c7": {
+            "name": "Lüfterstufe",
+            "icon": "mdi:fan",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.current-fan-level": {
+                    "_created": 1718792984444,
+                    "stateKey": "schwoerer-ventcube.0.parameters.current-fan-level",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.current-fan-level",
+                    "_updated": 1718807862610,
+                    "display": {
+                        "0": "Aus",
+                        "1": "Stufe 1",
+                        "2": "Stufe 2",
+                        "3": "Stufe 3",
+                        "4": "Stufe 4",
+                        "5": "Automatik",
+                        "6": "Linearbetrieb"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "6694f631-3894-4f0e-ba03-e4ce119b88c7",
+            "attributes": {
+                "_created": 1718792933259,
+                "_updated": 1718807994154
+            },
+            "revision": "5e803"
+        },
+        "1837d9e6-1af5-429a-a7c5-e4a9d1ecf11d": {
+            "name": "Manuelle Lüfterstufe",
+            "icon": "mdi:fan",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.manual-fan-level": {
+                    "_created": 1718793115320,
+                    "stateKey": "schwoerer-ventcube.0.parameters.manual-fan-level",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.manual-fan-level",
+                    "_updated": 1718793206609,
+                    "display": {
+                        "0": "Aus",
+                        "1": "Stufe 1",
+                        "2": "Stufe 2",
+                        "3": "Stufe 3",
+                        "4": "Stufe 4",
+                        "5": "Automatik",
+                        "6": "Linearbetrieb"
+                    },
+                    "actionElement": "DropdownAction"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "1837d9e6-1af5-429a-a7c5-e4a9d1ecf11d",
+            "attributes": {
+                "_created": 1718793108238,
+                "_updated": 1718808027161
+            },
+            "revision": "46108"
+        },
+        "b17385c5-6b22-4876-8d59-e0b8ae5543dc": {
+            "name": "Außentemperatur",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.t10-temp-outside": {
+                    "_created": 1718795464867,
+                    "stateKey": "schwoerer-ventcube.0.parameters.t10-temp-outside",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.t10-temp-outside",
+                    "_updated": 1718795621379,
+                    "unit": "° C"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "b17385c5-6b22-4876-8d59-e0b8ae5543dc",
+            "attributes": {
+                "_created": 1718795450347,
+                "_updated": 1718795624581
+            },
+            "revision": "8c3ea"
+        },
+        "6ba39939-0b56-47c5-8cce-12aee167e82e": {
+            "name": "Zusatzheizung Haus",
+            "icon": "mdi:heated-floor",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.additonal-heating-house": {
+                    "_created": 1718806594175,
+                    "stateKey": "schwoerer-ventcube.0.parameters.additonal-heating-house",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.additonal-heating-house",
+                    "_updated": 1718838625180,
+                    "action": "schwoerer-ventcube.0.parameters.additonal-heating-house",
+                    "actionElement": "SwitchAction",
+                    "display": {
+                        "0": "Aus",
+                        "1": "Heizen frei"
+                    },
+                    "properties": {
+                        "on": 1,
+                        "off": 0
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "6ba39939-0b56-47c5-8cce-12aee167e82e",
+            "attributes": {
+                "_created": 1718806580824,
+                "_updated": 1718838594083
+            },
+            "revision": "64811"
+        },
+        "5f3054a3-9b4a-4c24-93e4-af22bffad7df": {
+            "name": "Heiz- / Kühlfunktion",
+            "icon": "mdi:heat-cool",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.heating-cooling-function": {
+                    "_created": 1718806826317,
+                    "stateKey": "schwoerer-ventcube.0.parameters.heating-cooling-function",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.heating-cooling-function",
+                    "_updated": 1718806895587,
+                    "action": "schwoerer-ventcube.0.parameters.heating-cooling-function",
+                    "actionElement": "DropdownAction",
+                    "display": {
+                        "0": "Aus",
+                        "1": "Heizen",
+                        "2": "Kühlen",
+                        "3": "Auto T-Außen",
+                        "4": "Auto Digitaler Eingang"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "5f3054a3-9b4a-4c24-93e4-af22bffad7df",
+            "attributes": {
+                "_created": 1718806810264,
+                "_updated": 1718807959043
+            },
+            "revision": "76f38"
+        },
+        "16d28cc5-0095-46da-9de0-3ef2e628af9d": {
+            "name": "Stoßlüftung",
+            "icon": "mdi:fan-chevron-up",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.shock-ventilation": {
+                    "_created": 1718807350918,
+                    "stateKey": "schwoerer-ventcube.0.parameters.shock-ventilation",
+                    "showState": false,
+                    "state": "schwoerer-ventcube.0.parameters.shock-ventilation",
+                    "_updated": 1718837580545,
+                    "action": "schwoerer-ventcube.0.parameters.shock-ventilation",
+                    "actionElement": "SwitchAction",
+                    "properties": {
+                        "on": 1,
+                        "off": 0
+                    },
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Aus",
+                        "labelTurnOff": "Ein"
+                    },
+                    "bodyElement": "LastChangeBody",
+                    "display": {
+                        "0": "Inaktiv",
+                        "1": "Aktiv"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "16d28cc5-0095-46da-9de0-3ef2e628af9d",
+            "attributes": {
+                "_created": 1718807334307,
+                "_updated": 1718837569409
+            },
+            "revision": "25e7a"
+        },
+        "07cf6f43-acb9-4492-856e-7ab23ecf6fba": {
+            "name": "Restlaufzeit Stoßlüftung",
+            "icon": "mdi:fan-clock",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.shock-ventilation-remaining": {
+                    "_created": 1718807413451,
+                    "stateKey": "schwoerer-ventcube.0.parameters.shock-ventilation-remaining",
+                    "showState": true,
+                    "unit": "min",
+                    "_updated": 1718807419280,
+                    "state": "schwoerer-ventcube.0.parameters.shock-ventilation-remaining"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "07cf6f43-acb9-4492-856e-7ab23ecf6fba",
+            "attributes": {
+                "_created": 1718807402941,
+                "_updated": 1718808053858
+            },
+            "revision": "668e7"
+        },
+        "5f2d8261-c9a9-4b47-802f-7f8385059408": {
+            "name": "Zusatzheizung Wohnzimmer aktiv",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-enabled-room-1": {
+                    "_created": 1718824832678,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-1",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-1",
+                    "_updated": 1718839691939,
+                    "action": "",
+                    "label": "Zusatzheizung Freigabe",
+                    "actionElement": "SwitchAction",
+                    "IconStateConfig": {},
+                    "properties": {
+                        "on": 1,
+                        "off": 0
+                    },
+                    "display": {
+                        "0": "gesperrt",
+                        "1": "Heizen frei"
+                    },
+                    "ButtonGroupActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "5f2d8261-c9a9-4b47-802f-7f8385059408",
+            "attributes": {
+                "_created": 1718824814112,
+                "_updated": 1718839685359
+            },
+            "revision": "a6053"
+        },
+        "0fdf3d60-849f-4e00-81c6-6ef312724609": {
+            "name": "Zusatzheizung Wohnzimmer",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-active-room-1": {
+                    "_created": 1718825135707,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-1",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-1",
+                    "_updated": 1718837627290,
+                    "action": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-1",
+                    "label": "Zusatzheizung",
+                    "actionElement": "SwitchAction",
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "properties": {
+                        "off": 0,
+                        "on": 1
+                    },
+                    "display": {
+                        "0": "aus",
+                        "1": "aktiv"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "0fdf3d60-849f-4e00-81c6-6ef312724609",
+            "attributes": {
+                "_created": 1718825105115,
+                "_updated": 1718839602920
+            },
+            "revision": "2907d"
+        },
+        "16b27948-a2dc-4b14-82d4-c48e9810d0ed": {
+            "name": "Grundtemperatur Wohnzimmer",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.base-temp-room-1": {
+                    "_created": 1718835934168,
+                    "stateKey": "schwoerer-ventcube.0.parameters.base-temp-room-1",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.base-temp-room-1",
+                    "_updated": 1718838062278,
+                    "action": "schwoerer-ventcube.0.parameters.base-temp-room-1",
+                    "unit": "° C",
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Grundtemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "16b27948-a2dc-4b14-82d4-c48e9810d0ed",
+            "attributes": {
+                "_created": 1718835921716,
+                "_updated": 1718838059955
+            },
+            "revision": "5f9b5"
+        },
+        "16b27948-a2dc-4b14-82d4-c48e9810d0ed_5392f": {
+            "name": "Grundtemperatur Büro",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.base-temp-room-2": {
+                    "_created": 1718835934168,
+                    "stateKey": "schwoerer-ventcube.0.parameters.base-temp-room-2",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.base-temp-room-2",
+                    "_updated": 1718838044771,
+                    "action": "schwoerer-ventcube.0.parameters.base-temp-room-2",
+                    "unit": "° C",
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Grundtemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "16b27948-a2dc-4b14-82d4-c48e9810d0ed_5392f",
+            "attributes": {
+                "_created": 1718835921716,
+                "_updated": 1718838038473,
+                "_copied": 1718836517866
+            },
+            "revision": "1dbf3"
+        },
+        "16b27948-a2dc-4b14-82d4-c48e9810d0ed_5392f_a5d1f": {
+            "name": "Grundtemperatur Schlafzimmer",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.base-temp-room-3": {
+                    "_created": 1718835934168,
+                    "stateKey": "schwoerer-ventcube.0.parameters.base-temp-room-3",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.base-temp-room-3",
+                    "_updated": 1718838058168,
+                    "action": "schwoerer-ventcube.0.parameters.base-temp-room-3",
+                    "unit": "° C",
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Grundtemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "16b27948-a2dc-4b14-82d4-c48e9810d0ed_5392f_a5d1f",
+            "attributes": {
+                "_created": 1718835921716,
+                "_updated": 1718838056124,
+                "_copied": 1718836553508
+            },
+            "revision": "99531"
+        },
+        "16b27948-a2dc-4b14-82d4-c48e9810d0ed_96028": {
+            "name": "Grundtemperatur Kind 1",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.base-temp-room-4": {
+                    "_created": 1718835934168,
+                    "stateKey": "schwoerer-ventcube.0.parameters.base-temp-room-4",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.base-temp-room-4",
+                    "_updated": 1718838050714,
+                    "action": "schwoerer-ventcube.0.parameters.base-temp-room-4",
+                    "unit": "° C",
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Grundtemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "16b27948-a2dc-4b14-82d4-c48e9810d0ed_96028",
+            "attributes": {
+                "_created": 1718835921716,
+                "_updated": 1718838048892,
+                "_copied": 1718836571622
+            },
+            "revision": "667ed"
+        },
+        "16b27948-a2dc-4b14-82d4-c48e9810d0ed_96028_48d9f": {
+            "name": "Grundtemperatur Kind 2",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.base-temp-room-5": {
+                    "_created": 1718835934168,
+                    "stateKey": "schwoerer-ventcube.0.parameters.base-temp-room-5",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.base-temp-room-5",
+                    "_updated": 1718838054213,
+                    "action": "schwoerer-ventcube.0.parameters.base-temp-room-5",
+                    "unit": "° C",
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Grundtemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "16b27948-a2dc-4b14-82d4-c48e9810d0ed_96028_48d9f",
+            "attributes": {
+                "_created": 1718835921716,
+                "_updated": 1718838052451,
+                "_copied": 1718836600416
+            },
+            "revision": "327df"
+        },
+        "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_a858b": {
+            "name": "Temperatur Büro",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.temp-room-2": {
+                    "_created": 1718757945658,
+                    "stateKey": "schwoerer-ventcube.0.parameters.temp-room-2",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.temp-room-2",
+                    "_updated": 1718838099420,
+                    "action": "schwoerer-ventcube.0.parameters.temp-room-2",
+                    "unit": "° C",
+                    "actionElement": null,
+                    "bodyElement": null,
+                    "icon": "mdi:temperature-low",
+                    "label": "Temperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_a858b",
+            "attributes": {
+                "_created": 1718757913017,
+                "_updated": 1718838093318,
+                "_copied": 1718836771857
+            },
+            "revision": "64449"
+        },
+        "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_a858b_91a7e": {
+            "name": "Temperatur Schlafzimmer",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.temp-room-3": {
+                    "_created": 1718757945658,
+                    "stateKey": "schwoerer-ventcube.0.parameters.temp-room-3",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.temp-room-3",
+                    "_updated": 1718925347131,
+                    "action": "",
+                    "unit": "° C",
+                    "actionElement": null,
+                    "bodyElement": null,
+                    "icon": "mdi:temperature-low",
+                    "label": "Temperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_a858b_91a7e",
+            "attributes": {
+                "_created": 1718757913017,
+                "_updated": 1718925339295,
+                "_copied": 1718836807564
+            },
+            "revision": "62caa"
+        },
+        "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_95bb8": {
+            "name": "Temperatur Kind 1",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.temp-room-4": {
+                    "_created": 1718757945658,
+                    "stateKey": "schwoerer-ventcube.0.parameters.temp-room-4",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.temp-room-4",
+                    "_updated": 1718925907255,
+                    "action": "schwoerer-ventcube.0.parameters.temp-room-4",
+                    "unit": "° C",
+                    "actionElement": null,
+                    "bodyElement": "LastChangeBody",
+                    "icon": "mdi:temperature-low",
+                    "label": "Temperatur",
+                    "LastChangeBodyConfig": {
+                        "time": "ts"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_95bb8",
+            "attributes": {
+                "_created": 1718757913017,
+                "_updated": 1718925885127,
+                "_copied": 1718836839775
+            },
+            "revision": "adfbc"
+        },
+        "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_95bb8_a4740": {
+            "name": "Temperatur Kind 2",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.temp-room-5": {
+                    "_created": 1718757945658,
+                    "stateKey": "schwoerer-ventcube.0.parameters.temp-room-5",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.temp-room-5",
+                    "_updated": 1718838107658,
+                    "action": "schwoerer-ventcube.0.parameters.temp-room-5",
+                    "unit": "° C",
+                    "actionElement": null,
+                    "bodyElement": null,
+                    "icon": "mdi:temperature-low",
+                    "label": "Temperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "aee5c4f0-7630-4189-bd59-beb29a0f8e9a_95bb8_a4740",
+            "attributes": {
+                "_created": 1718757913017,
+                "_updated": 1718838105888,
+                "_copied": 1718836870328
+            },
+            "revision": "c1995"
+        },
+        "ffc50756-54a2-41f1-8520-511651d7b8b9_8d9e0": {
+            "name": "Solltemperatur Büro",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.target-temp-room-2": {
+                    "_created": 1718758998537,
+                    "stateKey": "schwoerer-ventcube.0.parameters.target-temp-room-2",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.target-temp-room-2",
+                    "_updated": 1718837061371,
+                    "actionElement": null,
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "unit": true,
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Solltemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "ffc50756-54a2-41f1-8520-511651d7b8b9_8d9e0",
+            "attributes": {
+                "_created": 1718758833922,
+                "_updated": 1718838074957,
+                "_copied": 1718836918368
+            },
+            "revision": "0a284"
+        },
+        "ffc50756-54a2-41f1-8520-511651d7b8b9_aae3f": {
+            "name": "Solltemperatur Schlafzimmer",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.target-temp-room-3": {
+                    "_created": 1718758998537,
+                    "stateKey": "schwoerer-ventcube.0.parameters.target-temp-room-3",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.target-temp-room-3",
+                    "_updated": 1718837076745,
+                    "actionElement": null,
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "unit": true,
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Solltemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "ffc50756-54a2-41f1-8520-511651d7b8b9_aae3f",
+            "attributes": {
+                "_created": 1718758833922,
+                "_updated": 1718838087714,
+                "_copied": 1718836919712
+            },
+            "revision": "8b497"
+        },
+        "ffc50756-54a2-41f1-8520-511651d7b8b9_12c5b": {
+            "name": "Solltemperatur Kind 1",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.target-temp-room-4": {
+                    "_created": 1718758998537,
+                    "stateKey": "schwoerer-ventcube.0.parameters.target-temp-room-4",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.target-temp-room-4",
+                    "_updated": 1718837023376,
+                    "actionElement": null,
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "unit": true,
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Solltemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "ffc50756-54a2-41f1-8520-511651d7b8b9_12c5b",
+            "attributes": {
+                "_created": 1718758833922,
+                "_updated": 1718836977119,
+                "_copied": 1718836921988
+            },
+            "revision": "73cd6"
+        },
+        "ffc50756-54a2-41f1-8520-511651d7b8b9_1bad0": {
+            "name": "Solltemperatur Kind 2",
+            "icon": "",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.target-temp-room-5": {
+                    "_created": 1718758998537,
+                    "stateKey": "schwoerer-ventcube.0.parameters.target-temp-room-5",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.target-temp-room-5",
+                    "_updated": 1718837052598,
+                    "actionElement": null,
+                    "bodyElement": "LevelBody",
+                    "LevelBodyConfig": {
+                        "unit": true,
+                        "markStep": "7"
+                    },
+                    "properties": {
+                        "min": 18,
+                        "max": 25
+                    },
+                    "label": "Solltemperatur"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "ffc50756-54a2-41f1-8520-511651d7b8b9_1bad0",
+            "attributes": {
+                "_created": 1718758833922,
+                "_updated": 1718837028058,
+                "_copied": 1718836922403
+            },
+            "revision": "5f703"
+        },
+        "0fdf3d60-849f-4e00-81c6-6ef312724609_0f67c": {
+            "name": "Zusatzheizung Büro",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-active-room-2": {
+                    "_created": 1718825135707,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-2",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-active-room-2",
+                    "_updated": 1718839542386,
+                    "action": "schwoerer-ventcube.0.parameters.add-heating-active-room-2",
+                    "label": "Zusatzheizung",
+                    "actionElement": "SwitchAction",
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "properties": {
+                        "off": 0,
+                        "on": 1
+                    },
+                    "display": {
+                        "0": "aus",
+                        "1": "aktiv"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "0fdf3d60-849f-4e00-81c6-6ef312724609_0f67c",
+            "attributes": {
+                "_created": 1718825105115,
+                "_updated": 1718839517635,
+                "_copied": 1718838162391
+            },
+            "revision": "3fbe3"
+        },
+        "0fdf3d60-849f-4e00-81c6-6ef312724609_c969d": {
+            "name": "Zusatzheizung Schlafzimmer",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-active-room-3": {
+                    "_created": 1718825135707,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-3",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-active-room-3",
+                    "_updated": 1718839597806,
+                    "action": "schwoerer-ventcube.0.parameters.add-heating-active-room-3",
+                    "label": "Zusatzheizung",
+                    "actionElement": "SwitchAction",
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "properties": {
+                        "off": 0,
+                        "on": 1
+                    },
+                    "display": {
+                        "0": "aus",
+                        "1": "aktiv"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "0fdf3d60-849f-4e00-81c6-6ef312724609_c969d",
+            "attributes": {
+                "_created": 1718825105115,
+                "_updated": 1718839589086,
+                "_copied": 1718838163589
+            },
+            "revision": "07ca6"
+        },
+        "0fdf3d60-849f-4e00-81c6-6ef312724609_8d865": {
+            "name": "Zusatzheizung Kind 1",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-active-room-4": {
+                    "_created": 1718825135707,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-4",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-active-room-4",
+                    "_updated": 1718839565852,
+                    "action": "schwoerer-ventcube.0.parameters.add-heating-active-room-4",
+                    "label": "Zusatzheizung",
+                    "actionElement": "SwitchAction",
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "properties": {
+                        "off": 0,
+                        "on": 1
+                    },
+                    "display": {
+                        "0": "aus",
+                        "1": "aktiv"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "0fdf3d60-849f-4e00-81c6-6ef312724609_8d865",
+            "attributes": {
+                "_created": 1718825105115,
+                "_updated": 1718839555346,
+                "_copied": 1718838164413
+            },
+            "revision": "96bd2"
+        },
+        "0fdf3d60-849f-4e00-81c6-6ef312724609_578a4": {
+            "name": "Zusatzheizung Kind 2",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-active-room-5": {
+                    "_created": 1718825135707,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-active-room-5",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-active-room-5",
+                    "_updated": 1718840688747,
+                    "action": "schwoerer-ventcube.0.parameters.add-heating-active-room-5",
+                    "label": "Zusatzheizung",
+                    "actionElement": "SwitchAction",
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "properties": {
+                        "off": 0,
+                        "on": 1
+                    },
+                    "display": {
+                        "0": "aus",
+                        "1": "aktiv"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "0fdf3d60-849f-4e00-81c6-6ef312724609_578a4",
+            "attributes": {
+                "_created": 1718825105115,
+                "_updated": 1718840671018,
+                "_copied": 1718838165119
+            },
+            "revision": "32081"
+        },
+        "5f2d8261-c9a9-4b47-802f-7f8385059408_382d0": {
+            "name": "Zusatzheizung Büro aktiv",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-enabled-room-2": {
+                    "_created": 1718824832678,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-2",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-2",
+                    "_updated": 1718839630452,
+                    "action": "",
+                    "label": "Zusatzheizung Freigabe",
+                    "actionElement": "SwitchAction",
+                    "IconStateConfig": {},
+                    "properties": {
+                        "on": 1,
+                        "off": 0
+                    },
+                    "display": {
+                        "0": "gesperrt",
+                        "1": "Heizen frei"
+                    },
+                    "ButtonGroupActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "5f2d8261-c9a9-4b47-802f-7f8385059408_382d0",
+            "attributes": {
+                "_created": 1718824814112,
+                "_updated": 1718839617630,
+                "_copied": 1718838169649
+            },
+            "revision": "c1a8d"
+        },
+        "5f2d8261-c9a9-4b47-802f-7f8385059408_b9f01": {
+            "name": "Zusatzheizung Schlafzimmer aktiv",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-enabled-room-3": {
+                    "_created": 1718824832678,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-3",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-3",
+                    "_updated": 1718839682582,
+                    "action": "",
+                    "label": "Zusatzheizung Freigabe",
+                    "actionElement": "SwitchAction",
+                    "IconStateConfig": {},
+                    "properties": {
+                        "on": 1,
+                        "off": 0
+                    },
+                    "display": {
+                        "0": "gesperrt",
+                        "1": "Heizen frei"
+                    },
+                    "ButtonGroupActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "5f2d8261-c9a9-4b47-802f-7f8385059408_b9f01",
+            "attributes": {
+                "_created": 1718824814112,
+                "_updated": 1718839675585,
+                "_copied": 1718838170106
+            },
+            "revision": "8c88f"
+        },
+        "5f2d8261-c9a9-4b47-802f-7f8385059408_d4ea1": {
+            "name": "Zusatzheizung Kind 1 aktiv",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-enabled-room-4": {
+                    "_created": 1718824832678,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-4",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-4",
+                    "_updated": 1718839649623,
+                    "action": "",
+                    "label": "Zusatzheizung Freigabe",
+                    "actionElement": "SwitchAction",
+                    "IconStateConfig": {},
+                    "properties": {
+                        "on": 1,
+                        "off": 0
+                    },
+                    "display": {
+                        "0": "gesperrt",
+                        "1": "Heizen frei"
+                    },
+                    "ButtonGroupActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "5f2d8261-c9a9-4b47-802f-7f8385059408_d4ea1",
+            "attributes": {
+                "_created": 1718824814112,
+                "_updated": 1718839641489,
+                "_copied": 1718838170998
+            },
+            "revision": "22ea4"
+        },
+        "5f2d8261-c9a9-4b47-802f-7f8385059408_4b16e": {
+            "name": "Zusatzheizung Kind 2 aktiv",
+            "icon": "mdi-heating-coil",
+            "label": "",
+            "function": "heating",
+            "states": {
+                "schwoerer-ventcube.0.parameters.add-heating-enabled-room-5": {
+                    "_created": 1718824832678,
+                    "stateKey": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-5",
+                    "showState": true,
+                    "state": "schwoerer-ventcube.0.parameters.add-heating-enabled-room-5",
+                    "_updated": 1718839671500,
+                    "action": "",
+                    "label": "Zusatzheizung Freigabe",
+                    "actionElement": "SwitchAction",
+                    "IconStateConfig": {},
+                    "properties": {
+                        "on": 1,
+                        "off": 0
+                    },
+                    "display": {
+                        "0": "gesperrt",
+                        "1": "Heizen frei"
+                    },
+                    "ButtonGroupActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    },
+                    "ButtonActionConfig": {
+                        "labelTurnOn": "Ausschalten",
+                        "labelTurnOff": "Einschalten"
+                    }
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "5f2d8261-c9a9-4b47-802f-7f8385059408_4b16e",
+            "attributes": {
+                "_created": 1718824814112,
+                "_updated": 1718840694455,
+                "_copied": 1718838171660
+            },
+            "revision": "8e4da"
+        },
+        "3f46d706-0685-4976-8dee-b5cd277190e9": {
+            "name": "Raspberry Pi",
+            "icon": "",
+            "label": "",
+            "function": "server",
+            "states": {
+                "system.host.raspberrypi.cpu": {
+                    "_created": 1718910876356,
+                    "stateKey": "system.host.raspberrypi.cpu",
+                    "showState": true,
+                    "state": "system.host.raspberrypi.cpu",
+                    "_updated": 1718911680180,
+                    "label": "CPU Auslastung",
+                    "unit": "%",
+                    "icon": "mdi-cpu-32-bit"
+                },
+                "system.host.raspberrypi.mem": {
+                    "_created": 1718910934601,
+                    "stateKey": "system.host.raspberrypi.mem",
+                    "showState": true,
+                    "state": "system.host.raspberrypi.mem",
+                    "_updated": 1718911742171,
+                    "unit": "%",
+                    "label": "RAM Auslastung",
+                    "icon": "mdi-database-outline"
+                },
+                "system.host.raspberrypi.diskSize": {
+                    "_created": 1718910905093,
+                    "stateKey": "system.host.raspberrypi.diskSize",
+                    "showState": true,
+                    "state": "system.host.raspberrypi.diskSize",
+                    "_updated": 1718911767475,
+                    "unit": "MB",
+                    "label": "Festplattengröße",
+                    "icon": "mdi-harddisk"
+                },
+                "system.host.raspberrypi.diskFree": {
+                    "_created": 1718910897372,
+                    "stateKey": "system.host.raspberrypi.diskFree",
+                    "showState": true,
+                    "state": "system.host.raspberrypi.diskFree",
+                    "_updated": 1718911770330,
+                    "unit": "MB",
+                    "icon": "mdi-harddisk"
+                },
+                "system.host.raspberrypi.uptime": {
+                    "_created": 1718910968090,
+                    "stateKey": "system.host.raspberrypi.uptime",
+                    "showState": true,
+                    "state": "system.host.raspberrypi.uptime",
+                    "_updated": 1718911793946,
+                    "unit": "s",
+                    "label": "Uptime",
+                    "icon": "mdi-clock-time-five-outline"
+                }
+            },
+            "options": {
+                "suppressPopup": true
+            },
+            "id": "3f46d706-0685-4976-8dee-b5cd277190e9",
+            "attributes": {
+                "_created": 1718910835384,
+                "_updated": 1718911640336
+            },
+            "revision": "e6e9a"
+        }
+    }
+}

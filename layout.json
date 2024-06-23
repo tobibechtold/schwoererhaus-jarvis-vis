@@ -1,0 +1,222 @@
+{
+    "version": 3,
+    "signature": 741395628374274,
+    "layout": [
+        {
+            "type": "page",
+            "icon": "mdi:house-outline",
+            "title": "Home",
+            "tabs": [
+                {
+                    "_created": 1718757236177,
+                    "icon": "mdi-heating-coil",
+                    "title": "Heizungssteuerung",
+                    "id": "13c71c75-da36-44ac-a74f-5d6060d05950",
+                    "revision": "55ed1",
+                    "_hasIconBinding": false,
+                    "_hasTitleBinding": false,
+                    "widgetsDesktop": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "w": 3,
+                            "h": 7,
+                            "i": "987b6738-4a86-487c-abd0-2ca86f6803da",
+                            "moved": false,
+                            "items": [
+                                "fd39fc28-0158-4e05-81d6-14495b9060f9"
+                            ]
+                        },
+                        {
+                            "x": 6,
+                            "y": 6,
+                            "w": 3,
+                            "h": 6,
+                            "i": "36b7e547-6c71-4b83-89aa-6c6d9de9eb19",
+                            "moved": false,
+                            "items": [
+                                "f506699b-161c-43a5-8809-5ce12097b08a"
+                            ]
+                        },
+                        {
+                            "x": 6,
+                            "y": 0,
+                            "w": 3,
+                            "h": 6,
+                            "i": "84660b03-1534-41a1-9c94-6c45678486f2",
+                            "moved": false,
+                            "items": [
+                                "af7c25ad-2462-4da8-9f89-df2a90550b7c"
+                            ]
+                        },
+                        {
+                            "x": 9,
+                            "y": 0,
+                            "w": 3,
+                            "h": 6,
+                            "i": "6553f1c4-5be9-4d5c-84cc-7ef1ebba9240",
+                            "moved": false,
+                            "items": [
+                                "65a69bf1-dfab-4bf6-9028-988a4d4329e2"
+                            ]
+                        },
+                        {
+                            "x": 3,
+                            "y": 6,
+                            "w": 3,
+                            "h": 6,
+                            "i": "8fa61d37-54f1-4059-9eee-63ed9c2d00bb",
+                            "moved": false,
+                            "items": [
+                                "2301f603-a248-4453-928c-6888d3e4fcd7"
+                            ]
+                        },
+                        {
+                            "x": 9,
+                            "y": 6,
+                            "w": 3,
+                            "h": 6,
+                            "i": "0fd04173-3f48-4db3-9afe-285ce2818b94",
+                            "moved": false,
+                            "items": [
+                                "984bceb4-ef81-4e0f-b603-1b052f6505a0"
+                            ]
+                        },
+                        {
+                            "x": 3,
+                            "y": 0,
+                            "w": 3,
+                            "h": 6,
+                            "i": "7c9510ff-6572-4395-9010-a730e0f35fb6",
+                            "moved": false,
+                            "items": [
+                                "a834e15a-3075-446a-8352-0aab008c6d05"
+                            ]
+                        },
+                        {
+                            "x": 0,
+                            "y": 7,
+                            "w": 3,
+                            "h": 5,
+                            "i": "19ff75fd-a630-444c-b0f2-d0476664e740",
+                            "moved": false,
+                            "items": [
+                                "ae2e59f3-a45e-4f10-be08-f281b14bd321"
+                            ]
+                        }
+                    ],
+                    "_updated": 1718911544690,
+                    "widgetsSmartphone": [],
+                    "widgetConfig": {
+                        "desktopGapSize": "15",
+                        "desktopFitPageHeight": false
+                    }
+                }
+            ],
+            "id": "c958c3be-8912-4636-8729-b318caf68059",
+            "revision": "b7a92",
+            "_created": 1718757236177,
+            "_hasIconBinding": false,
+            "_hasTitleBinding": false,
+            "_updated": 1718792759174
+        },
+        {
+            "id": "cfbea70b-925b-40d1-9e8e-d0768336e3da",
+            "title": "Main Site",
+            "type": "page",
+            "icon": "mdi-file",
+            "tabs": [
+                {
+                    "id": "0559b5e5-1c56-4ea4-8211-d51226417202",
+                    "title": "Dashboard",
+                    "icon": "mdi-monitor-dashboard",
+                    "widgetsDesktop": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "w": 4,
+                            "h": 4,
+                            "i": "af434ea0-5a0d-45ef-832d-09ae9cec96da",
+                            "moved": false,
+                            "items": []
+                        }
+                    ],
+                    "widgetsSmartphone": [],
+                    "_hasIconBinding": false,
+                    "_hasTitleBinding": false,
+                    "revision": "9a814",
+                    "_updated": 1718756667406
+                },
+                {
+                    "id": "e2055e5e-c0a8-46dc-8019-30c97e157d62",
+                    "title": "Map",
+                    "icon": "map",
+                    "fullscreen": true,
+                    "widgetsDesktop": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "w": 4,
+                            "h": 4,
+                            "i": "3587d28c-ffbe-4121-9e93-35cc52a5e947",
+                            "moved": false,
+                            "items": [
+                                "232c9a69-1077-4b03-9c68-2d27eb148e6f"
+                            ]
+                        }
+                    ],
+                    "widgetsSmartphone": [],
+                    "_hasIconBinding": false,
+                    "_hasTitleBinding": false
+                },
+                {
+                    "id": "c9ae69c1-5c33-49bb-86e9-6ca2106cb9b7",
+                    "title": "Settings",
+                    "icon": "cog",
+                    "widgetsDesktop": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "w": 4,
+                            "h": 30,
+                            "i": "252b1b88-f112-4095-aa75-a8f97fc6856b",
+                            "moved": false,
+                            "items": [
+                                "dc0d5c0e-d82d-41a9-8f55-6d6ce9b94937"
+                            ],
+                            "scaleToFitContents": false
+                        },
+                        {
+                            "x": 4,
+                            "y": 0,
+                            "w": 8,
+                            "h": 5,
+                            "i": "6367c1cf-9e5d-4ec7-a383-f578e6dd0ea2",
+                            "moved": false,
+                            "items": [
+                                "6fc7cca0-306e-40f6-a7c6-556ebd1fbd73"
+                            ]
+                        },
+                        {
+                            "x": 8,
+                            "y": 5,
+                            "w": 4,
+                            "h": 25,
+                            "i": "9f4dbd4d-cbe7-4dcd-94f3-c35850e28778",
+                            "moved": false,
+                            "items": [
+                                "e90fd75a-f510-4481-845d-b2cdac5c4e2f"
+                            ],
+                            "scaleToFitContents": false
+                        }
+                    ],
+                    "widgetsSmartphone": [],
+                    "_hasIconBinding": false,
+                    "_hasTitleBinding": false
+                }
+            ],
+            "_hasIconBinding": false,
+            "_hasTitleBinding": false
+        }
+    ]
+}
